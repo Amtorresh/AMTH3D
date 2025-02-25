@@ -118,18 +118,20 @@ main {
 }
 
 #portada button {
-    margin: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 60px;
 	padding: 20px 20px;
-	border-radius: 5px;
 	color: #fff;
 	background-color: #444;
 
 }
 
+
 h1 {
-    font-size: 48px;
+    text-transform: uppercase;
+    font-size: 52px;
     color: #fff;
-    text-transform: capitalize;
     padding: 20px 0;
     text-align: center;
 
@@ -144,7 +146,7 @@ h3 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -256,24 +258,22 @@ footer img {
 
 /* PROYECTOS*/
 
-.grid_container{
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    /*grid-template-columns: 300px 1fr 1fr;*/
-    /*grid-template-rows: 300px 300px 300px;*/
-    grid-template-rows: repeat(3, 300px);
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
-}
-
-
 .page_proyectos img {
-    width: 300px;
-    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px #666;
 }
 
-
+.grid_container{
+    padding: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /*grid-template-columns: 300px 1fr 1fr;*/
+    /*grid-template-rows: 300px 300px 300px;*/ 
+    justify-content: space-around;
+    gap: 32px;
+}
 
 
 /* CONTACTO */
@@ -306,6 +306,7 @@ footer img {
     background-color: #444;
     padding: 20px;
     font-size: 16px;
+    text-transform: uppercase;
 }
 
 .contacto p{

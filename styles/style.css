@@ -23,7 +23,7 @@ body {
     text-transform: uppercase;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 
 }
 
@@ -119,7 +119,7 @@ main {
 
 #portada button {
     margin: 20px;
-	padding: 10px 20px;
+	padding: 20px 20px;
 	border-radius: 5px;
 	color: #fff;
 	background-color: #444;

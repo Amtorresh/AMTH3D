@@ -1,0 +1,18 @@
+//BASE
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
+
+//UTILITIES
+@import 'partials/utilities/maps';
+@import 'partials/utilities/mixins';
+
+//COMPONENTS
+@import 'partials/components/navbar';
+@import 'partials/components/portada';
+@import 'partials/components/botones';
+@import 'partials/components/footer';
+@import 'partials/components/nosotros';
+@import 'partials/components/servicios';
+@import 'partials/components/proyectos';
+@import 'partials/components/contacto';
+

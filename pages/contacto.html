@@ -6,6 +6,7 @@
     <link rel="icon" href="../images/logo_1.png">
     <!--ANIMATED-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="../styles/style.css">
     <title>AMTH3D</title>
@@ -32,16 +33,23 @@
     <Section class="contacto">
         <h1>Contacto</h1>
         <H3>escribenos y crea tu idea en 3d</H3>
-            <form method="post">
+            <form data-aos="zoom-in-left" method="post">
                 <input class="input" placeholder="Nombre">
                 <input class="input" placeholder="Email">
                 <input class="input" placeholder="Teléfono">
                 <textarea class="input" placeholder="Mensaje"></textarea>
                 <button class="enviar" type="submit">enviar</a></button>
             </form>
-            <p>+ 507 6935 3844</p>
-            <p> amth3d@gmail.com</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.537253794194!2d-79.47920952498131!3d9.014655991046057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca98c85b7e445%3A0x47f4289c3dff4a66!2sP.H.%20Green%20Bay!5e0!3m2!1ses!2spa!4v1736527507486!5m2!1ses!2spa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div  data-aos="zoom-in-left" class="contacto2">
+                <img src="../icons/phone.svg" alt="">
+                <p>+ 507 6935 3844</p>
+            </div>
+            <div  data-aos="zoom-in-left" class="contacto2">
+                <img src="../icons/mail.svg" alt="">
+                <p> amth3d@gmail.com</p>
+            </div>
+            <iframe data-aos="zoom-in-left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.537253794194!2d-79.47920952498131!3d9.014655991046057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca98c85b7e445%3A0x47f4289c3dff4a66!2sP.H.%20Green%20Bay!5e0!3m2!1ses!2spa!4v1736527507486!5m2!1ses!2spa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </Section>
 </main>
 
@@ -55,6 +63,12 @@
         <p>&copy; AMTH3D - Todos los derechos reservados</p> 
         <img class="animate__animated animate__backInRight" src="../images/logo_2.png" alt="logo amth3d" width="140" height="auto">
     </footer>
+
+    <!--AOS ANIMATED-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>

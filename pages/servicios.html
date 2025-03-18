@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/logo_1.png">
     <!--ANIMATED-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="../styles/style.css">
     <title>AMTH3D</title>
@@ -34,22 +35,22 @@
         <section id="page_servicios">
             <h1>servicios</h1>
             <div class="container_servicios">
-                <div class="servicios" id="modelado3d">
+                <div data-aos="zoom-in" class="servicios" id="modelado3d">
                     <h2>modelado 3d</h2>
                     <img src="../images/modelado3d.jpeg" alt="imagen_modelado_3D">
                     <p>El modelado 3D es el proceso de crear representaciones digitales tridimensionales de objetos utilizando software especializado. Estas representaciones pueden ser simples formas geométricas o modelos detallados con texturas y acabados. Es ampliamente usado en ingeniería, diseño industrial, arquitectura y entretenimiento. Los modelos permiten visualizar ideas antes de fabricarlas, ahorrando tiempo y costos. Además, son fundamentales para procesos como animación, simulaciones y prototipado.</p>
                 </div>    
-                <div class="servicios" id="impresion3d">
+                <div data-aos="zoom-in" class="servicios" id="impresion3d">
                     <h2>impresión 3d</h2>
                     <img src="../images/impresion3d.jpeg" alt="imagen_impresion_3D">
                     <p>La impresión 3D es una tecnología que fabrica objetos físicos capa por capa a partir de modelos 3D digitales. Utiliza materiales como plásticos, resinas, metales e incluso biopolímeros, dependiendo de la aplicación. Es ideal para crear prototipos, piezas personalizadas o productos finales de manera rápida y precisa. Su uso abarca desde la industria automotriz hasta la medicina y el arte. Esta técnica transforma el diseño en realidad, facilitando la innovación.</p>
                 </div>
-                <div class="servicios" id="planos">
+                <div data-aos="zoom-in" class="servicios" id="planos">
                     <h2>planos fabricación</h2>
                     <img src="../images/planimetria.jpg" alt="imagen_planos">   
                     <p>Los planos de fabricación son documentos técnicos que detallan las especificaciones necesarias para producir una pieza o ensamblaje. Incluyen dimensiones, materiales, tolerancias y acabados, garantizando precisión en el proceso de manufactura. Estos planos son fundamentales para comunicar las ideas del diseñador a los fabricantes. En ingeniería y diseño industrial, son una herramienta clave para transformar un modelo 3D en un producto real. Además, facilitan la estandarización y evitan errores en la producción.</p>
                 </div>    
-                <div class="servicios" id="cursos">
+                <div data-aos="zoom-in" class="servicios" id="cursos">
                     <h2>cursos</h2>
                     <img src="../images/cursos.jpg" alt="imagen_cursos">
                     <p>Aprender modelado 3D es esencial para quienes buscan innovar o destacarse en sectores tecnológicos. Son una inversión clave para potenciar habilidades y ampliar oportunidades laborales. En el curso de modelado 3D enseñamos a utilizar herramientas digitales para diseñar objetos tridimensionales con aplicaciones prácticas. Ofrecen conocimientos desde conceptos básicos hasta técnicas avanzadas.</p>
@@ -69,6 +70,11 @@
         <img class="animate__animated animate__backInRight" src="../images/logo_2.png" alt="logo amth3d" width="140" height="auto">
     </footer>
 
+        <!--AOS ANIMATED-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 </html>

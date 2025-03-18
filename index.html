@@ -6,6 +6,7 @@
     <link rel="icon" href="images/logo_1.png">
     <!--ANIMATED-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="styles/style.css">
     <title>AMTH3D</title>
@@ -31,8 +32,8 @@
 
     <main>
         <div id="portada">
-            <h1>Crea tus ideas<br>en 3D</h1>
-            <button class="seguir-viendo"><a href="pages/servicios.html">seguir viendo</a></button>
+            <h1 data-aos="zoom-in" >Crea tus ideas<br>en 3D</h1>
+            <button data-aos="zoom-in" class="seguir-viendo"><a href="pages/contacto.html">contáctanos</a></button>
         </div>
     </main>
 
@@ -46,6 +47,12 @@
         <p>&copy; AMTH3D - Todos los derechos reservados</p> 
         <img class="animate__animated animate__backInRight" src="images/logo_2.png" alt="logo amth3d" width="140" height="auto">
     </footer>
+
+        <!--AOS ANIMATED-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 </html>
